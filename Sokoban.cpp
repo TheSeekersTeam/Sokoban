@@ -48,14 +48,14 @@ void add() {
 
 int main() {
 	system("color F0");
-	cout << setw(60) << "推箱子 Version 1.0 Copyright by 赖朴然\n" << endl;
+	cout << setw(60) << "推箱子 Version 1.1 Copyright by 赖朴然\n" << endl;
 	cout << "游戏规则：" << endl;
 	cout << "把所有的目的地都用箱子压住即为成功" << endl;
 	cout << "I是你自己\no是箱子\n#是障碍物\n";
 	system("pause");
 	system("cls");
 	ifstream fin;
-	for (t = 0; t < 2; t++) {
+	for (t = 0; t < 3; t++) {
 		bn = 0;
 		switch (t) {
 		case 0:
@@ -63,6 +63,9 @@ int main() {
 			break;
 		case 1:
 			filename[3] = '2';
+			break;
+		case 2:
+			filename[3] = '3';
 			break;
 		default:
 			break;
