@@ -48,10 +48,10 @@ void add() {
 
 int main() {
 	system("color F0");
-	cout << setw(60) << "推箱子 Version 1.1 Copyright by 赖朴然\n" << endl;
+	cout << setw(60) << "推箱子 Version 1.2 Copyright by Puran Lai\n" << endl;
 	cout << "游戏规则：" << endl;
 	cout << "把所有的目的地都用箱子压住即为成功" << endl;
-	cout << "I是你自己\no是箱子\n#是障碍物\n";
+	cout << "\"I\"是你自己\n\"o\"是箱子\n\"#\"是障碍物\n";
 	system("pause");
 	system("cls");
 	ifstream fin;
